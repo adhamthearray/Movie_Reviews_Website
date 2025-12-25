@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "897983383891",
+    "project_id": "untitled4-419c1",
+    "storage_bucket": "untitled4-419c1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897983383891:android:3b62efd0c19f98a18679a6",
+        "android_client_info": {
+          "package_name": "com.domma.firebaseproj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7J7ActLVcvkIO30Ffqn2jqHsahamToRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
