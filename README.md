@@ -1,16 +1,50 @@
-# untitled4
+# 🎬 Movie Reviews Website
 
-A new Flutter project.
+A cross-platform **Flutter application** for browsing movies and managing user reviews.  
+The project is designed to integrate **The Movie Database (TMDB) API** for movie data and **Firebase** for authentication and data storage.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Project Overview
 
-A few resources to get you started if this is your first Flutter project:
+The Movie Reviews Website allows users to explore movies, view details, and interact with movie-related content.  
+The application is built using Flutter and targets **Android, iOS, and Web** platforms.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The system is structured to:
+- Fetch movie data from **TMDB API**
+- Manage users and reviews using **Firebase**
+- Provide a clean and responsive UI using Flutter widgets
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Technologies Used
+
+### Frontend / Client
+- **Flutter (Dart)**
+- Material UI components
+
+### External APIs
+- **TMDB API** – movie listings, details, ratings, posters
+
+### Backend / Services
+- **Firebase**
+  - Firebase Authentication (user login/signup)
+  - Cloud Firestore (store user reviews and ratings)
+  - Firebase Hosting (web support – optional)
+
+---
+
+## 📂 Project Structure
+
+```text
+Movie_Reviews_Website/
+├── android/                # Android platform code
+├── ios/                    # iOS platform code
+├── web/                    # Flutter web support
+├── lib/                    # Flutter application source code
+├── test/                   # Unit and widget tests
+├── project-firebase/       # Firebase project configuration
+├── firebase.json           # Firebase setup file
+├── pubspec.yaml            # Dependencies and configuration
+├── untitled4.zip           # Backup of original project
+└── README.md               # Project documentation
